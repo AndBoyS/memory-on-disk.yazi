@@ -2,6 +2,8 @@
 
 Plugin for [Yazi](https://github.com/sxyazi/yazi) that displays the remaining available memory in the status bar.
 
+Note: you will see a difference between what Finder on Mac reports and this plugin because `df` doesn't know about purgable space (space for caching that will be automatically freed if necessary)
+
 ## Installation
 
 ### Using `ya pkg`
